@@ -17,8 +17,14 @@ Section 01
 */
 
 @media (max-width: 1680px) {
+  #section_04 {
+    height: 70vh !important;
+  }
 }
 @media (max-width: 1600px) {
+  #section_04 {
+    height: 60vh !important;
+  }
 }
 @media (max-width: 1440px) {
 }
@@ -243,6 +249,9 @@ Section 01
   .info_text {
     padding: 0 10px !important;
   }
+  #section_04 {
+    height: 50vh !important;
+  }
 }
 
 @media (max-width: 500px) {
@@ -272,6 +281,9 @@ Section 01
     width: 5rem !important;
     height: 4rem !important;
     margin: 0 50px 0 0 !important;
+  }
+  #section_04 {
+    height: 30vh !important;
   }
 }
 
@@ -747,7 +759,7 @@ Section 02
 }
 
 #section_04 {
-  height: 100vh;
+  height: 80vh;
   background-color: transparent;
   background-image: linear-gradient(98grad, #000000 0%, #002332 100%);
   display: flex;
