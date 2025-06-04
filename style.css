@@ -665,6 +665,7 @@ section 03
   #info_container_section_03 {
     border: none;
     width: 100%;
+    padding: 0;
   }
 
   #info_container_text_01,
@@ -678,9 +679,6 @@ section 03
 
   .info_text {
     align-items: center;
-  }
-  #info_container_section_03 {
-    padding: 0;
   }
   .info_text {
     text-align: justify;
@@ -1308,7 +1306,7 @@ section 09
   margin-top: 30px;
   text-align: center;
   font-family: "Play", Sans-serif;
-  font-size: 14px;
+  font-size: 18px;
   font-weight: 400;
   letter-spacing: 0.5px;
   color: #000000;
